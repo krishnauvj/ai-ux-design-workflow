@@ -1,0 +1,24 @@
+# Example workflow configuration
+# Copy this file to config/workflow.yaml and modify as needed
+
+app_name: ai-ux-design-workflow
+debug: false
+log_level: INFO
+
+# Agent settings
+max_agents: 10
+agent_timeout: 300
+
+# API settings
+api_timeout: 30
+max_retries: 3
+
+# Workflow settings
+enable_persistence: true
+output_dir: outputs
+
+# LLM settings
+llm_provider: openai
+llm_model: gpt-4
+llm_temperature: 0.7
+llm_max_tokens: 2048
